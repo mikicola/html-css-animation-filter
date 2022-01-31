@@ -1,4 +1,4 @@
-.ex-1-square, .ex-2-square .ex-7-img{
+.ex-1-square, .ex-2-square .ex-7-img, .ex-8-img{
     transition: 2s;
 }
 
@@ -43,6 +43,10 @@
     filter: grayscale(100%);
 }
 
-.ex-7-img:hover{
+.ex-7-img:hover, .ex-8-img:hover{
     filter: grayscale(.6) sepia(.5);
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
 }
