@@ -85,3 +85,45 @@
         transform: rotate(0deg);
     }
 }
+
+.ex-12-button:hover .ex-12-top-white {
+    animation-name: test1-top;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: test1-bottom;
+}
+
+.ex-12-top-white,
+.ex-12-bottom-white
+{
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;  
+}
+
+@keyframes test1-top {
+    0% {
+        left:10%;
+    }
+    50%{
+        left:65%; 
+    }
+    
+    100%{
+        left:10%;
+    }
+}
+
+@keyframes test1-bottom {
+    0% {
+        right:10%;
+    }
+    50%{
+        right:65%; 
+    }
+    
+    100%{
+        right:10%;
+    }
+}
