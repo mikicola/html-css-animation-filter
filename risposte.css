@@ -66,3 +66,22 @@
     100% 
         { transform: rotate(-360deg);}
 }
+
+
+.ex-11-icon:hover{
+    animation-name: spin2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes spin2 {
+    0% { transform: rotate(0deg);
+    }
+    90%{ transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
