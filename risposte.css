@@ -1,4 +1,4 @@
-.ex-1-square, .ex-2-square .ex-7-img, .ex-8-img, .ex-9-img{
+.ex-1-square, .ex-2-square, .ex-7-img, .ex-8-img, .ex-9-img{
     transition: 2s;
 }
 
@@ -9,7 +9,6 @@
 .ex-2-square:active{
     width: 100%;
 }
-
 
 .ex-3-square{
     transition: .5s;
@@ -154,19 +153,19 @@
         top: -10px;
     }
     30% {
-        left: calc(100% - 40px);
+        left: calc(100% - 30px);
         top: -10px;
     }
     45% {
-        left: calc(100% - 40px);
-        top: 100%;
+        left: calc(100% - 30px);
+        top: calc(100% - 10px);
     }
     75% {
-        left: 0;
-        top: 100%;
+        left: -30px;
+        top: calc(100% - 10px);
     }
     90% {
-        left: -15px;
+        left: -30px;
         top: -10px;
     }
     100% {
@@ -181,19 +180,19 @@
         right: 20%;
     }
     30% {
-        right: calc(100% - 40px);
+        right: calc(100% - 30px);
         bottom: -10px;
     }
     45% {
-        right: calc(100% - 40px);
-        bottom: 100%;
+        right: calc(100% - 30px);
+        bottom: calc(100% - 10px);
     }
     75% {
-        right: 0;
-        bottom: 100%;
+        right: -30px;
+        bottom: calc(100% - 10px);
     }
     90% {
-        right: -15px;
+        right: -30px;
         bottom: -10px;
     }
     100% {
